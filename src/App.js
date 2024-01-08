@@ -6,14 +6,18 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Pocetna from "./stranice/Pocetna";
 import ONama from "./stranice/ONama";
 import Usluge from "./stranice/Usluge";
+import Kontakt from "./stranice/Kontakt";
 import Pitanja from "./stranice/Pitanja";
-import Kontakt from './stranice/Kontakt';
+import {Container} from "react-bootstrap";
+import Footer from "./komponente/Footer";
 
 function App() {
   return (
     <>
         <BrowserRouter>
             <Navigacija />
+            <Container className="wrapper">
+
             <Routes>
                 <Route path="/" element={<Pocetna />} />
                 <Route path="/onama" element={<ONama />} />
@@ -21,6 +25,8 @@ function App() {
                 <Route path="/pitanja" element={<Pitanja />} />
                 <Route path="/kontakt" element={<Kontakt />} />
             </Routes>
+            </Container>
+            <Footer />
         </BrowserRouter>
     </>
   );
