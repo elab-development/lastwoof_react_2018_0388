@@ -11,14 +11,14 @@ const Usluge = () => {
             naziv: "Sahrana",
             cena: 5000,
             icon: <Bs1CircleFill />,
-            boja: "danger"
+            boja: "light"
         },
         {
             id: 2,
             naziv: "Kremacija",
             cena: 10000,
             icon: <Bs2CircleFill />,
-            boja: "warning"
+            boja: "secondary"
         },
         {
             id: 3,
@@ -39,14 +39,14 @@ const Usluge = () => {
             naziv: "Urma",
             cena: 9000,
             icon: <Bs5CircleFill />,
-            boja: "primary"
+            boja: "light"
         },
         {
             id: 6,
             naziv: "Umrlica",
             cena: 3000,
             icon: <Bs6CircleFill />,
-            boja: "dark"
+            boja: "secondary"
         },
         ];
 
