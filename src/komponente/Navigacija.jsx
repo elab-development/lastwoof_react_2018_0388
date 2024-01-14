@@ -6,7 +6,7 @@ const Navigacija = () => {
         <>
             <Navbar bg="dark" data-bs-theme="dark">
                 <Container>
-                    <Navbar.Brand href="#home">Last Woof</Navbar.Brand>
+                    <Navbar.Brand href="/">Last Woof</Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link href="/">Pocetna</Nav.Link>
                         <Nav.Link href="/onama">O nama</Nav.Link>
