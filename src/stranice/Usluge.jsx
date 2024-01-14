@@ -54,7 +54,7 @@ const Usluge = () => {
         <>
             <div className="header">
                 <h1>Usluge</h1>
-                <p>Usluge koje pruzamo </p>
+                <p> Ovo je najmanje što su naši mali prijatelji zaslužili! </p>
             </div>
             <Row className="mt-3">
                 {

@@ -12,7 +12,7 @@ const ONama = () => {
             id:1,
             imeprezime: "Ivana Milidragovic",
             brojgodina: "23",
-            opis:"Student Fakulteta organizacionih nauka u Beogradu.",
+            opis:"Idejni tvorac, svoju ljubava prema životinjama pretočila sam u delo, kroz naše preduzeće, želeći da pokažem da o našim malim prijateljima brinemo, uslovno rečeno, do kraja života.  ",
             slika: ivana
         },
 
@@ -20,7 +20,7 @@ const ONama = () => {
             id:2,
             imeprezime: "Andrea Tambur",
             brojgodina: "24",
-            opis: "Student Fakulteta organizacionih nauka u Beogradu.",
+            opis: "Na oduševljenje idejom prijateljice Ivane, prihvatila sam da budem deo svega u nadi da ćemo u zamisli uspeti. Naša ideja je oživela, a na naše ljubimce sada zauvek imamo sečanje i način da se od njih oprostimo na što 'lepši način'-kako i zaslužuju.",
             slika: andrea
 
         }
@@ -45,11 +45,11 @@ const ONama = () => {
                                 }
                             </h1>
 
-                            <p>
+                            <h4>
                                 {
                                     mi.brojgodina
                                 } godine
-                            </p>
+                            </h4>
 
                             <Image widht={600} height={400}  src={mi.slika}>
 
