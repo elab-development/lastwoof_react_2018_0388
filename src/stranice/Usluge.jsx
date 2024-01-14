@@ -36,7 +36,7 @@ const Usluge = () => {
         },
         {
             id: 5,
-            naziv: "Urma",
+            naziv: "Urna",
             cena: 9000,
             icon: <Bs5CircleFill />,
             boja: "light"
